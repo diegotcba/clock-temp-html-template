@@ -1,0 +1,73 @@
+body {
+ margin: 0;
+ padding: 0;
+ background: transparent;						
+
+}
+
+.table>tbody>tr>td, .table>thead>tr>td {
+	border-top: 0px;
+}
+
+.container {
+  width: 1280px;
+  height: 720px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 0;
+  background: transparent;						
+ }
+
+ #info {
+	color: red;
+	visibility: visible;
+  overflow: scroll;
+  height: 50%
+ }
+
+ .scoreboard {
+   margin: auto;
+   z-index: 1;
+   position: absolute;
+   left: 100px;
+   bottom: 40px;
+   width: 100px;
+   height: 40px;
+   opacity: 1;
+ }
+
+ .scoreboard-bg {
+   z-index: 10;
+   position: absolute;
+   left: 0px;
+   width: 100px;
+   height: 40px;
+   background: #3c4a95;
+   opacity: 1;
+   border-top: 0px;
+ }
+
+ .clock {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 14pt;
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: absolute;
+  left: 6px;    
+ }
+
+ .temperature {
+   color: white;
+   vertical-align: middle;
+   font-size: 13pt;
+   text-transform: uppercase;
+   position: absolute;
+   left: 65px;
+   text-align: left;   
+ }

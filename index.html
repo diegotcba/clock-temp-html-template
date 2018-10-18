@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nViVo CG - Clock/Temp Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Our own styling -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- div container only for testing porpouses -->
+      <div id="info"><button id="testMode">Test</button><br></div>
+      <div class="scoreboard">
+        <table class="table">
+          <tr>
+            <td class="scoreboard-bg">
+              <span id="clock" class="clock">00:00</span>
+              <span id="temp" class="temperature">00&deg;</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) and for our custom code -->
+    <script src="./lib/jQuery-2.1.4.min.js"></script>
+
+    <!-- Simple weather library (required) -->
+    <script src="./lib/jquery.simpleWeather.min.js"></script>
+
+    <!-- Our custom code for the template -->
+    <script src="./js/index.js"></script>
+
+  </body>
+</html>
